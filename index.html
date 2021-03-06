@@ -17,99 +17,108 @@
 <!--This is the header of the site, where it's split up into 2 sections, the left side contains nothing and the right side 
     contains the nav bar-->
 
-<body>
-<div class="container"> 
-    <div class="header">
-        <header> 
-            <div class="full-width-head">
-                <div class="half-width">
-                    <!--This should be empty, I donl't want anything on the left hand side of the page at the top-->
-                </div>
-
-                <div class="half-width-nav">
-                    <nav>
-                        <ul>
-                           <li><a href="#projects">Projects</a></li> 
-                           <li><a href="#about">About</a></li>
-                           <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <img class="hero-image" src="img/nasa-usa.jpg" alt="Image of a satellite map of the USA at night">
-
-                <div class="centered"><h1>Hi There! I'm Nicole Siggins.<br></h1><span> <p id=byline>I'm a map lover who is passionate about civic tech, community mapping and open source projects. You can find some of the projects I contribute to below. :)</p></span>
-                </div>
+    <body>
+        <div class="container"> 
+            <div class="header">
+                <header> 
+                    <div class="full-width-head">
+                        <div class="half-width">
+                            <!--This should be empty, I don't want anything on the left hand side of the page at the top-->
+                        </div>
+        
+                        <div class="half-width-nav">
+                            <nav>
+                                <ul>
+                                   <li><a href="#projects">Projects</a></li> 
+                                   <li><a href="#about">About</a></li>
+                                   <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+        
+                        <img class="hero-image" src="img/nasa-usa.jpg" alt="Image of a satellite map of the USA at night">
+        
+                        <div class="centered"><h1>Hi There! I'm Nicole Siggins.<br></h1><span id=byline>I'm a map lover who is passionate about civic tech, community mapping and open source projects. You can find some of the projects I contribute to below. :)</span>
+                        </div>
+                    </div>
+                </header>
             </div>
-        </header>
-    </div>
 
-<!--This is for the projects section of the page where it's split up into 2 sections, the left side contains the image and the right side contains the text-->
+            <!--This is for the projects section of the page where it's split up into 2 sections, the left side contains the image and the right side contains the text-->
 
  <section id="projects">
-    <div class="full-width">
-        <h2>Projects</h2>
-            <div class="half-width">
-                <img id="maptime" src="img/maptime.png" alt="Maptime Berlin logo sticker">
-            </div>
-            <div class="half-width">
-                <p>Maptime Berlin is quarterly event of map enthusiasts and mapping professionals alike. We offer workshops, have interesting lectures, and we occasionally go on an outting to a map library or exhibtion. I've been a co-organizer since 2017. If you'd like to speak at one of our events (post COVID times, of course!) please do get in touch! We welcome anyone who has a map related project that they would like to present, and we are especially beginner friendly. You can find our Meetup page <a href="https://www.meetup.com/Maptime-BER/">here</a>.</p>
-            </div>
+    <h2>Projects</h2>
 
-            <div class="half-width">
-                <img id="missing-maps" src="img/missing-maps.jpg" alt="Missing Maps logo">
-            </div>
-            <div class="half-width">
-                <p>Missing Maps is an OpenStreetMap project that works in conjuction with the Red Cross to help put vulnerable communities on the map. We work via large scale mapathons and other humanitarian effors to ensure that people who  need disaster relief are able to get the help they need as quickly as possible. We help map communties that have experienced or will soon experience hurricanes, floods, or other natural disasters, and we are especially focued right now on vaccination stations and food aid. You can find a link to the project <a href="https://www.missingmaps.org/">here</a>.</p>
-            </div>
+    <div class="full-width" id="first-project-maptime">
 
-            <div class="half-width">
-                <img id="desire-path" src="img/desire-path.jpg" alt="Image of desire path">
-            </div>
-            <div class="half-width">
-                <p>"Map your Desire Path" is a collaborate project to put the Desire Paths you see in the world around you onto the map. A Desire Path is a path or way that forms when pedestrian and foot traffic wears away at the natural or urban landscape, often in a way that in contrary to land and urban planning. Desire Paths can show where the people "voted with their feet" and can be helpful in planning future cities. This project aims to help people notice the world around us, and to take a "people first" approach to the places where we live.</p>
-            </div>
-     </div>
- </section>
+        <div class="half-width-logo">
+            <img id="maptime" src="img/maptime.png" alt="Maptime Berlin logo sticker">
+        </div>
+        <div class="half-width-text-maptime">
+        <p>Maptime Berlin is quarterly event of map enthusiasts and mapping professionals alike. We offer workshops, have interesting lectures, and we occasionally go on an outting to a map library or exhibtion. I've been a co-organizer since 2017. If you'd like to speak at one of our events (post COVID times, of course!) please do get in touch! We welcome anyone who has a map related project that they would like to present, and we are especially beginner friendly. You can find our Meetup page <a class="underline" href="https://www.meetup.com/Maptime-BER/" target="_blank">here</a>.</p>
+        </div>
+    </div>
+
+    <div class="full-width" id="second-project-missing">
+
+        <div class="half-width-logo">
+            <img id="missing-maps" src="img/missing-maps.jpg" alt="Missing Maps logo">
+        </div>
+        <div class="half-width-text-missing">
+            <p>Missing Maps is an OpenStreetMap project that works in conjuction with the Red Cross to help put vulnerable communities on the map. We work via large scale mapathons and other humanitarian effors to ensure that people who  need disaster relief are able to get the help they need as quickly as possible. We help map communties that have experienced or will soon experience hurricanes, floods, or other natural disasters, and we are especially focued right now on vaccination stations and food aid. You can find a link to the project <a class="underline" href="https://www.missingmaps.org/" target="_blank">here</a>.</p>
+        </div>
+    </div>
+
+    <div class="full-width" id="third-project-desire">
+
+        <div class="half-width-logo">
+            <img id="desire-path" src="img/desirepath.jpg" alt="Image of desire path">
+        </div>
+        <div class="half-width-text-desire">
+            <p>"Map your Desire Path" is a collaborate project to put the Desire Paths you see in the world around you onto the map. A Desire Path is a path or way that forms when pedestrian and foot traffic wears away at the natural or urban landscape, often in a way that is contrary to land and urban planning. Desire Paths can show where the people "voted with their feet" and can be helpful in planning future cities. This project aims to help people notice the world around us, and to take a "people first" approach to the places where we live. Webiste coming soon!</p>
+        </div>
+    </div>
+</section>
 
  <!--This is for the about me section of the page where it's split up into 2 sections, the left side contains the image and the right side contains the text-->
 
  <section id="about">
     <div class="full-width">
-        <h2>About Me</h2>
-        <div class="half-width">
+        <h2 class="aboutme-text">About Me</h2>
+        <div class="half-width photo">
             <img class="picture-me" src="img/nicole-round-cutout.png" alt="Image of me">
         </div>
-        <div class="half-width">
+        <div class="half-width abouttext">
             <p>I'm passionate about civic tech and using mapping to help others. I like coding for fun and figuring out technical problems. My favorite is working with absolute beginners. Turning someone onto civic mapping and using technology to benefit their lives is what makes my world go round. At the moment I'm part of the Missing Maps London Working Group for HOTOSM and help train new mappers in our mapping tools. I also help friends and colleagues troublshoot their HTML, CSS, Git, and JOSM issues. Get in touch if you like to chat!</p>
         </div>
     </div>
  </section>
 
-  <!--This is for the contact section of the page where it's split up into 2 sections, the left side contains the image and the right side contains the text-->
+<!--This is for the contact section of the page where it's split up into 2 sections, the left side contains the image and the right side contains the text-->
 
- <section id="contact">
-     <div class="full-width">
-         <h4>Let's Connect</h4>
-         <div class="third-width">
-             <h5>Hire Me</h5>
-             <p class="footer-text">+49 015 221 491 917<br>nicole[.]siggins[@]gmail[.]com</p>
-         </div>
-         <div class="third-width">
-             <h5>Follow Me</h5>
-            <a href="https://github.com/nicolelaine" target="_blank"> <img alt="Github icon" src="img/GitHub.png"> </a>
-            <a href="https://www.linkedin.com/in/nicolesiggins" target="_blank"> <img alt="LinkedIn icon" src="img/LinkedIn.png" ></a>
-         </div>
-         <div class ="third-width">
-             <h5>Meet Me</h5>
-             <p class="footer-text">I'm based in Hamburg, Germany at the moment. Want to meet up? (Maybe video chat is better for now. :)</p>
-         </div>
-     </div>
- </section>
+<section id="contact">
+    <div class="full-width-contact">
+        <h4>Let's Connect</h4>
+        <div class="third-width">
+            <h5>Hire Me</h5>
+            <p class="contact-text">+49 015 221 491 917<br><a class="contact-email" href="mailto:nicole.siggins@gmail.com">nicole.siggins [ @ ] gmail.com</a></p>
+        </div>
+        <div class="third-width">
+            <h5>Follow Me</h5>
+           <a id="icon-git" href="https://github.com/nicolelaine" target="_blank"> <img alt="Github icon" src="img/GitHub.png"> </a>
+           <a id="icon-linked" href="https://www.linkedin.com/in/nicolesiggins" target="_blank"> <img alt="LinkedIn icon" src="img/LinkedIn.png" ></a>
+        </div>
+        <div class ="third-width">
+            <h5>Meet Me</h5>
+            <p class="contact-text">I'm based in Hamburg, Germany. Want to meet up? (Maybe video chat is better for now!)</p>
+        </div>
+        <p class ="footer-text">Copyright 2021 | Nicole Siggins</p>
+    </div>
+</section>
 
- <div class="footer">
-     <p>Copyright 2021 | Nicole Siggins</p>
- </div>
+
 </div>
 </body>
 </html>
+
+
